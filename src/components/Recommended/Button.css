@@ -1,0 +1,23 @@
+.btn-rec {
+  display: inline-block;
+  padding: 10px 10px;
+  margin: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #9a9c9e;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.btn-rec:hover {
+  background-color: #4b4b4b;
+}
+
+.btn-rec:active{
+  background-color: #ffffff;
+}

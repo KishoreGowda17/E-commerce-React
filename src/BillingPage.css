@@ -1,0 +1,96 @@
+.billing-page {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.billing-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.billing-header h1 {
+  font-size: 24px;
+  color: #333333;
+  margin: 0;
+}
+
+.X-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #000000;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #000000;
+}
+
+p {
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #030303;
+}
+
+.Rem-btn {
+  padding: 10px 10px;
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  margin: 0 0 0 2em;
+  padding: 9px;
+}
+
+.Rem-btn:hover {
+  background-color: #b82828;
+}
+
+.pay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pay-btn {
+  padding: 10px 10px;
+  background-color: #20b406;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: 150px;
+  padding: 10px;
+}
+
+.pay-btn:hover {
+  background-color: rgb(6, 175, 14);
+}

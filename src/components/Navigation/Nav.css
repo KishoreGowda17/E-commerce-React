@@ -1,0 +1,48 @@
+nav {
+  display: flex;
+  border-bottom: 2px solid #f3f3f3;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  z-index: 999;
+  margin-left: 2rem;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  flex-direction: row;
+  align-content: center;
+  flex-wrap: nowrap;
+
+}
+.search-input{
+  margin-left: 104px; ;
+}
+
+input {
+  padding: 12px 20px;
+  border: none;
+  background: #f7f6f6;
+  outline: none;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 5px;
+  position: relative;
+  width: 14rem;
+}
+
+.profile-container a {
+  color: black;
+}
+
+.profile-container a:hover {
+  color: crimson;
+}
+
+.nav-icons {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 2rem;
+}

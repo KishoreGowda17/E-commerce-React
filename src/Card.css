@@ -1,0 +1,30 @@
+.btn-add {
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-add button {
+  display: inline-block;
+  padding: 10px 10px;
+  margin: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.btn-add button:hover {
+  background-color: #0056b3;
+}
+.btn-add button:active{
+  background-color: #ffffff;
+}
