@@ -101,7 +101,7 @@ function App() {
         addToCart={addToCart}
         goToBillingPage={goToBillingPage} 
       />
-      <Recommended handleClick={handleClick} />
+      <Recommended handleClick = {handleClick} />
       <Products result={result} />
       {showBilling && (
         <BillingPage
