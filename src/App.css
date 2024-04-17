@@ -5,6 +5,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background: linear-gradient(130deg , rgb(255, 255, 255),rgb(81, 181, 221));
 }
 
 /* Billing page styles */

@@ -13,7 +13,9 @@ a {
 li {
   list-style: none;
 }
-
+body{
+  background: linear-gradient(130deg , red,blue);
+}
 @media (max-width: 768px) {
   /* Add responsive styles here */
   body {
