@@ -99,7 +99,7 @@ function App() {
         handleInputChange={handleInputChange}
         cartItems={cartItems}
         addToCart={addToCart}
-        goToBillingPage={goToBillingPage}
+        goToBillingPage={goToBillingPage} 
       />
       <Recommended handleClick={handleClick} />
       <Products result={result} />
