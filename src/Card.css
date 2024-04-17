@@ -1,3 +1,4 @@
+/* Default styles */
 .btn-add {
   text-align: center;
   margin-top: 20px;
@@ -25,6 +26,11 @@
 .btn-add button:hover {
   background-color: #0056b3;
 }
-.btn-add button:active{
-  background-color: #ffffff;
+
+/* Media query for responsiveness */
+@media (max-width: 480px) {
+  .btn-add button {
+    font-size: 14px;
+    padding: 8px 8px;
+  }
 }

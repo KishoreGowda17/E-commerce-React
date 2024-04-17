@@ -14,3 +14,14 @@ li {
   list-style: none;
 }
 
+@media (max-width: 768px) {
+  /* Add responsive styles here */
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+}

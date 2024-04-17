@@ -1,5 +1,13 @@
 /* App.css */
 
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Billing page styles */
 .billing-page {
   position: fixed;
   top: 50%;
@@ -50,4 +58,50 @@ p {
   font-weight: bold;
   margin-top: 20px;
   color: #333;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .billing-page {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .billing-header h1 {
+    font-size: 18px;
+  }
+
+  .billing-header button {
+    font-size: 14px;
+  }
+
+  ul li {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .billing-page {
+    width: 95%;
+  }
+
+  .billing-header h1 {
+    font-size: 16px;
+  }
+
+  .billing-header button {
+    font-size: 12px;
+  }
+
+  ul li {
+    font-size: 12px;
+  }
+
+  p {
+    font-size: 14px;
+  }
 }

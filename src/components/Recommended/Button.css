@@ -21,3 +21,9 @@
 .btn-rec:active{
   background-color: #ffffff;
 }
+@media (max-width: 768px) {
+  .btn-rec {
+    font-size: 14px;
+    padding: 8px 8px;
+  }
+}

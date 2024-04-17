@@ -71,3 +71,26 @@
   margin-top: 3rem;
   border-color: #f7f7f7;
 }
+@media (max-width: 768px) {
+  .sidebar-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .sidebar-label-container {
+    padding-left: 30px;
+    margin-bottom: 10px;
+  }
+
+  .checkmark {
+    height: 18px;
+    width: 18px;
+  }
+
+  .checkmark:after {
+    top: 5.6px;
+    left: 5.6px;
+    width: 6.4px;
+    height: 6.4px;
+  }
+}

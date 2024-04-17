@@ -13,3 +13,15 @@
   margin-top: 20px;
   font-size: 20px;
 }
+@media (max-width: 768px) {
+  .recommended-flex {
+    margin-left: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .recommended-title {
+    margin-left: 0;
+    text-align: center;
+  }
+}

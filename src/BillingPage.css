@@ -1,3 +1,11 @@
+/* Default styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Billing page styles */
 .billing-page {
   position: fixed;
   top: 50%;
@@ -8,7 +16,6 @@
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  font-family: Arial, sans-serif;
 }
 
 .items {
@@ -93,4 +100,43 @@ p {
 
 .pay-btn:hover {
   background-color: rgb(6, 175, 14);
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+  .billing-page {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .billing-page {
+    width: 95%;
+  }
+
+  .billing-header h1 {
+    font-size: 20px;
+  }
+
+  .X-btn {
+    font-size: 14px;
+  }
+
+  ul li {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .Rem-btn {
+    font-size: 10px;
+    margin: 0 0 0 1em;
+  }
+
+  .pay-btn {
+    font-size: 10px;
+    margin-left: 100px;
+  }
 }
